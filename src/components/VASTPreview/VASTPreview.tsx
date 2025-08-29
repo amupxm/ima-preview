@@ -1,6 +1,6 @@
 import styles from "./Button.module.css";
 
-export interface ButtonProps {
+export interface VASTPreviewProps {
   children: React.ReactNode;
   variant?: "primary" | "secondary" | "danger";
   size?: "small" | "medium" | "large";
@@ -9,7 +9,7 @@ export interface ButtonProps {
   type?: "button" | "submit" | "reset";
 }
 
-export const Button: React.FC<ButtonProps> = ({
+export const VASTPreview: React.FC<VASTPreviewProps> = ({
   children,
   variant = "primary",
   size = "medium",
